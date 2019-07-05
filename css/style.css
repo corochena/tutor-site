@@ -1,5 +1,5 @@
 .jumbotron {
-  background-image: url(/img/solar-sys4.jpg);
+  background-image: url(img/solar-sys4.jpg);
   background-position-y: -150px;
   min-height: 400px;
   color: white;
@@ -20,7 +20,7 @@
 }
 
 #graduacion {
-  background-image: url(/img/graduation2.jpg);
+  background-image: url(img/graduation2.jpg);
   background-position-y: -100px;
   background-repeat: no-repeat;
   background-size: cover;
