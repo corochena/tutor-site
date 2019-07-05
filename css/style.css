@@ -1,0 +1,46 @@
+.jumbotron {
+  background-image: url(/img/solar-sys4.jpg);
+  background-position-y: -150px;
+  min-height: 400px;
+  color: white;
+  margin-top: 50px;
+}
+
+.row {
+  min-height: 400px;
+  padding-top: 50px;
+}
+
+#importancia {
+  background-color: rgba(60, 81, 150, 0.11);
+}
+
+#importancia ul {
+  list-style: none;
+}
+
+#graduacion {
+  background-image: url(/img/graduation2.jpg);
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
+
+#graduacion h1 {
+  font-size: 500%;
+  text-shadow: 5px 5px 5px black;
+}
+
+#footer {
+  background-color: rgba(60, 81, 150, 0.11);
+}
+
+#footer p {
+  margin-bottom: 0px;
+  color: rgb(65, 65, 65);
+}
+
+.card-img-top {
+  max-height: 200px;
+}

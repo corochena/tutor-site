@@ -1,92 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>La Ventaja Cuantitativa</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>La Ventaja Cuantitativa</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
 </head>
+
 <body>
-    <div class="section" id="saludo">
-        <h1>Invierte en tu futuro!</h1>
-        <p>
-            Hola soy Carlos Peña y te ofrezco mis servicios para ayudarte a que entiendas, aprendas y domines 
-            tanto la Física como la Matemática. Olvida los nervios y dolores de cabeza y destaca en tu carrera!
-        </p>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+    <a href="#" class="navbar-brand">Profesor Peña</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <a class="nav-link" href="#about">Acerca de mi</a>
+        <a class="nav-link" href="#importancia">Por que estudiar?</a>
+        <a class="nav-link" href="#temas">Temas</a>
+        <a class="nav-link" href="#formulas">Fórmulas</a>
+      </ul>
     </div>
-    <div class="section" id="about">
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="border-bottom">
+        Invierte en tu carrera <small>y en tu futuro!</small>
+      </h1>
+      <p>
+        Hola soy Carlos Peña y te ofrezco mis conocimientos y experiencia para
+        ayudarte a que entiendas, aprendas y domines tanto la Física como la
+        Matemática. Olvida los nervios, angustias y dolores de cabeza y
+        destaca en tu carrera!
+      </p>
+      <button class="btn btn-light">Contactame</button>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row" id="about">
+      <div class="col-8 col-md-10">
         <h1>Acerca de mi</h1>
-        <p>Mi nombre es Carlos Fidel Peña Orochena, ingeniero en Electrónica con Máster en Administración.
-            Me empezó a gustar la Matemática en sexto grado de primaria cuando aprendí a resolver problemas
-            de ecuaciones lineales, en 3er año de secundaria gané una Olimpiada Matemática en el departamento 
-            de Masaya y cuando hice el examen de admisión para la universidad quedé en 1er lugar en el listado 
-            de alumnos de la carrera de Electrónica. Actualmente trabajo como docente en la Universidad Americana UAM.
+        <p>
+          Mi nombre es Carlos Fidel Peña Orochena, ingeniero en Electrónica
+          con Máster en Administración. Me empezó a gustar la Matemática en
+          sexto grado de primaria cuando aprendí a resolver problemas de
+          ecuaciones lineales, en 3er año de secundaria gané una Olimpiada
+          Matemática en el departamento de Masaya y cuando hice el examen de
+          admisión para la universidad quedé en 1er lugar en el listado de
+          alumnos de la carrera de Electrónica. Actualmente trabajo como
+          docente en la Universidad Americana UAM.
         </p>
+      </div>
+      <div class="col-4 col-md-2">
+        <img src="img/me1.jpg" class="img-fluid rounded" alt="" />
+      </div>
     </div>
-    <div class="section" id="importancia">
+    <div class="row" id="importancia">
+      <div class="col-sm-12 col-md-4 text-center">
+        <img src="/img/why1.jpg" class="img-fluid rounded w-75 mb-4" alt="" />
+      </div>
+      <div class="col-sm-12 col-md-8">
         <h1>Por que estudiar Matemáticas?</h1>
         <p>
-            Para tener la capacidad de resolver problemas cuantitativos de Física, Ingeniería y otras areas 
-            como Estadística, Finanzas, Economía y Administración.
+          Para tener la capacidad de resolver problemas cuantitativos de
+          Física, Ingeniería, Estadística, Finanzas,
+          Economía y Administración.
         </p>
-        <p>La anterior es una razón general y muy importante pero a continuación te doy mas:</p>
+        <p>
+          La anterior es una razón general y muy importante pero a
+          continuación te doy mas:
+        </p>
         <ul>
-            <li>Para entrar bien preparado a la universidad y disfrutar tu carrera en vez de sufrirla</li>
-            <li>Para optar a una beca en el extranjero donde la competencia será mucho más fuerte</li>
-            <li>Para mantener una beca en tu universidad y asi ahorrar algo de dinero</li>
-            <li>Para aprobar las materias que cursas y asi no atrasarte en tu carrera</li>
-            <li>Para hablar otro idioma como el inglés, chino o alemán, asi es la Matemática</li>
+          <li>
+            🗸 Para entrar bien preparado a la universidad y disfrutar tu carrera
+            en vez de sufrirla
+          </li>
+          <li>
+            🗸 Para optar a una beca en el extranjero donde la competencia será
+            mucho más fuerte
+          </li>
+          <li>
+            🗸 Para mantener una beca en tu universidad y asi ahorrar algo de
+            dinero
+          </li>
+          <li>
+            🗸 Para aprobar las materias que cursas y asi no atrasarte en tu
+            carrera
+          </li>
+          <li>
+            🗸 Para prepararte para un examen especial como el GMAT o el GRE
+          </li>
+          <li>
+            🗸 Para comunicarte en otro idioma como el inglés, chino o alemán,
+            asi es la Matemática
+          </li>
         </ul>
+      </div>
     </div>
-    <div class="section" id="temas">
+    <div class="row" id="temas">
+      <div class="col">
         <h1>Exactamente que te puedo enseñar?</h1>
-        <h3>Matemática Básica</h3>
-        <ul>
-            <li>Algebra: expresiones algebraicas, factorización, logaritmos y ecuaciones</li>
-            <li>Geometria: calculo de longitudes, ángulos, áreas y volúmenes</li>
-            <li>Trigonometría: funciones seno, coseno, tangente, identidades, problemas</li>
-            <li>Geometría Analítica: rectas, parábolas, elipses, hipérbolas</li>
-        </ul>
-        <h3>Cálculo</h3>
-        <ul>
-            <li>Cálculo Diferencial: derivadas, análisis de funciones, problemas de optimización y 
-                problemas de razón de cambio
-            </li>
-            <li>Cálculo Integral: métodos de integración, aplicación de las integrales a la física</li>
-        </ul>
-        <h3>Física</h3>
-        <ul>
-            <li>Cinemática: movimiento rectilíneo uniforme y acelerado, movimiento parabólico, 
-                movimiento circular y movimiento armónico simple
-            </li>
-            <li>Dinámica: leyes de Newton, peso, fricción</li>
-            <li>Trabajo y Energía: Energía Cinética y Energía Potencial, Conservación de la energía, colisiones</li>
-            <li>Dinámica Rotacional: Torque, Momento de Inercia</li>
-            <li>Electricidad y Magnetismo: Campo Eléctrico, Ley de Gauss, Ley de Ampere, Campo Magnético</li>
-            <li>Circuitos Eléctricos: Leyes de Kirchhoff, Teorema de Thevenin</li>
-        </ul>
+        <div class="card-group">
+          <div class="card">
+            <img src="img/math8.jpg" class="card-img-top rounded img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title text-center">Matemática Básica</h3>
+              <div class="accordion" id="mateBasica">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#algebra"
+                        aria-expanded="true" aria-controls="algebra">
+                        Álgebra
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="algebra" class="collapse" aria-labelledby="headingOne" data-parent="#mateBasica">
+                    <div class="card-body">
+                      expresiones algebraicas, factorización, logaritmos y
+                      ecuaciones
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#geometria" aria-expanded="false" aria-controls="geometria">
+                        Geometría
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="geometria" class="collapse" aria-labelledby="headingTwo" data-parent="#mateBasica">
+                    <div class="card-body">
+                      cálculo de longitudes, ángulos, áreas y volúmenes
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#trig"
+                        aria-expanded="false" aria-controls="trig">
+                        Trigonometría
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="trig" class="collapse" aria-labelledby="headingThree" data-parent="#mateBasica">
+                    <div class="card-body">
+                      funciones seno, coseno, tangente, identidades, problemas
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ganal"
+                        aria-expanded="false" aria-controls="ganal">
+                        Geometría Analítica
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="ganal" class="collapse" aria-labelledby="headingFour" data-parent="#mateBasica">
+                    <div class="card-body">
+                      rectas, parábolas, elipses, hipérbolas
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/calculus.jpeg" class="card-img-top rounded img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title text-center">Cálculo</h3>
+              <div class="accordion" id="calculo">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#derivadas"
+                        aria-expanded="true" aria-controls="derivadas">
+                        Cálculo Diferencial
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="derivadas" class="collapse" aria-labelledby="headingOne" data-parent="#calculo">
+                    <div class="card-body">
+                      derivadas, análisis de funciones, problemas de
+                      optimización y problemas de razón de cambio
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#integrales" aria-expanded="false" aria-controls="integrales">
+                        Cálculo Integral
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="integrales" class="collapse" aria-labelledby="headingTwo" data-parent="#calculo">
+                    <div class="card-body">
+                      métodos de integración, aplicación de las integrales a
+                      la física
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#calc3"
+                        aria-expanded="false" aria-controls="calc3">
+                        Cálculo Multivariado
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="calc3" class="collapse" aria-labelledby="headingThree" data-parent="#calculo">
+                    <div class="card-body">
+                      derivadas parciales, integrales múltiples
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#ecdif"
+                        aria-expanded="false" aria-controls="ecdif">
+                        Ecuaciones Diferenciales
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="ecdif" class="collapse" aria-labelledby="headingFour" data-parent="#calculo">
+                    <div class="card-body">
+                      separación de variables, ecuación lineal de primer
+                      orden, problemas
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/physics4.jpg" class="card-img-top rounded img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h3 class="card-title text-center">Física</h3>
+              <div class="accordion" id="fisica">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#mecanica"
+                        aria-expanded="true" aria-controls="mecanica">
+                        Mecánica
+                      </button>
+                    </h2>
+                  </div>
+
+                  <div id="mecanica" class="collapse" aria-labelledby="headingOne" data-parent="#fisica">
+                    <div class="card-body">
+                      cinemática, dinámica, trabajo y energía, colisiones,
+                      centro de masa, torque, momento de inercia
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#electromag" aria-expanded="false" aria-controls="electromag">
+                        Electromagnetismo
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="electromag" class="collapse" aria-labelledby="headingTwo" data-parent="#fisica">
+                    <div class="card-body">
+                      Campo eléctrico, campo magnético, ley de Gauss, ley de
+                      Ampere, capacitancia, inductancia
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                      <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                        data-target="#circuitos" aria-expanded="false" aria-controls="circuitos">
+                        Circuitos Eléctricos
+                      </button>
+                    </h2>
+                  </div>
+                  <div id="circuitos" class="collapse" aria-labelledby="headingThree" data-parent="#fisica">
+                    <div class="card-body">
+                      ley de Ohm, leyes de Kirchhoff, teorema de Thevenin
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="section" id="formulas">
+    <div class="row" id="graduacion">
+      <div class="col">
+        <h1 class="text-center text-white">
+          Disfruta tu carrera!!
+        </h1>
+      </div>
+    </div>
+    <div class="row" id="formulas">
+      <div class="col">
         <h2>Algunas Formulas Famosas</h2>
-        Teorema de Pitagoras \(a^2 + b^2 = c^2\)
-        Solucion de Cuadrática \( x = {-b \pm \sqrt{b^2 - 4ac} \over 2a}\)
-        Logaritmo de un producto \( log(ab) = log a + log b\)
-        Area de un círculo \( A = \pi r^2\)
-        Seno de una suma \( sen(\alpha + \beta) = sen\alpha cos\beta + sen\beta cos\alpha \)
-        Ecuacion de una parabola \( (x-h)^2 = 4a(y-k) \)
+        <div class="card-group">
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Teorema de Pitágoras</h6>
+              \(a^2 + b^2 = c^2\)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Solución de la Cuadrática</h6>
+              \( x = {-b \pm \sqrt{b^2 - 4ac} \over 2a}\)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Logaritmo de un Producto</h6>
+              \( log(ab) = log a + log b\)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Área del Círculo</h6>
+              \( A = \pi r^2\)
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Volumen de la Esfera</h6>
+              \( V = {4 \over 3} \pi r^3 \)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Aceleración</h6>
+              \( a = {vf - vo \over t}\)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Segunda Ley de Newton</h6>
+              \( \sum F = ma \)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Ecuación de una recta</h6>
+              \( y = mx + b \)
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="section" id="footer">
-        <nav>
-            <ul>
-                <li><i class="fas fa-phone"></i></li>
-                <li><i class="fab fa-youtube"></i></li>
-                <li><i class="fab fa-facebook"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-            </ul>
-        </nav>
+    <div class="row" id="footer">
+      <div class="col">
+        <div class="text-center">
+          <i class="fas fa-phone fa-lg"></i> 8465-3699 -
+          <i class="fas fa-envelope-square fa-lg"></i> corochena@gmail.com
+        </div>
+        <br>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-primary" target="_blank"
+              href="https://www.youtube.com/channel/UCi8hE04UIQW1p0mnNTWEl9w">
+              <i class="fab fa-youtube fa-2x"></i></li></a>
+          <li class="nav-item">
+            <a class="nav-link text-primary" target="_blank" href="https://www.facebook.com/cpena2k/">
+            <i class="fab fa-facebook fa-2x"></i></li></a>
+        </ul>
+        <br>
+        <p class="text-center">Creado con ❤️ por Carlos Peña</p>
+        <p class="text-center">Copyright © 2019. Todos los derechos reservados.</p>
+      </div>
     </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
