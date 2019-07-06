@@ -11,12 +11,10 @@
   padding-top: 50px;
 }
 
-#importancia {
+#importancia,
+#footer,
+#tips {
   background-color: rgba(60, 81, 150, 0.11);
-}
-
-#importancia ul {
-  list-style: none;
 }
 
 #graduacion {
@@ -30,10 +28,6 @@
 #graduacion h1 {
   font-size: 500%;
   text-shadow: 5px 5px 5px black;
-}
-
-#footer {
-  background-color: rgba(60, 81, 150, 0.11);
 }
 
 #footer p {
