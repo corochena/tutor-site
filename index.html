@@ -16,7 +16,7 @@
 
 <body>
   <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-    <a href="#" class="navbar-brand">Profesor Peña</a>
+    <a href="#" class="navbar-brand">Profesor Peña 👨‍🏫</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,11 +40,11 @@
         Matemática. Olvida los nervios, angustias y dolores de cabeza y
         destaca en tu carrera!
       </p>
-      <button class="btn btn-light">Contactame</button>
+      <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Contactame</button>
     </div>
   </div>
   <div class="container-fluid">
-    <div class="row" id="about">
+    <div class="row section" id="about">
       <div class="col-8 col-md-10">
         <h1>Acerca de mi</h1>
         <p>
@@ -62,7 +62,7 @@
         <img src="img/me1.jpg" class="img-fluid rounded" alt="" />
       </div>
     </div>
-    <div class="row" id="importancia">
+    <div class="row section" id="importancia">
       <div class="col-sm-12 col-md-4 text-center">
         <img src="img/why1.jpg" class="img-fluid rounded w-75 mb-4" alt="" />
       </div>
@@ -104,7 +104,7 @@
         </ul>
       </div>
     </div>
-    <div class="row" id="temas">
+    <div class="row section" id="temas">
       <div class="col">
         <h1>Exactamente que te puedo enseñar?</h1>
         <div class="card-group">
@@ -309,14 +309,14 @@
         </div>
       </div>
     </div>
-    <div class="row" id="graduacion">
+    <div class="row section" id="graduacion">
       <div class="col">
         <h1 class="text-center text-white">
           Disfruta tu carrera!!
         </h1>
       </div>
     </div>
-    <div class="row" id="formulas">
+    <div class="row section" id="formulas">
       <div class="col">
         <h2>Algunas Formulas Famosas</h2>
         <div class="card-group">
@@ -355,13 +355,13 @@
           <div class="card text-center">
             <div class="card-body">
               <h6 class="card-title">Aceleración</h6>
-              \( a = {vf - vo \over t}\)
+              \( a = \frac{v _{f} - v _{o}}{t} \)
             </div>
           </div>
           <div class="card text-center">
             <div class="card-body">
               <h6 class="card-title">Segunda Ley de Newton</h6>
-              \( \sum F = ma \)
+              \( \sum \vec{F} = m\vec{a} \)
             </div>
           </div>
           <div class="card text-center">
@@ -371,9 +371,35 @@
             </div>
           </div>
         </div>
+        <div class="card-group">
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Integración por Partes</h6>
+              \( \int udv = uv - \int vdu\)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">ED Lineal 1er Orden</h6>
+              \( \frac {dy}{dx} + P(x)y = Q(x) \)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Ley de Gauss</h6>
+              \( \oint \vec{E} \cdot d\vec{A} =\frac{q}{\epsilon _{o}} \)
+            </div>
+          </div>
+          <div class="card text-center">
+            <div class="card-body">
+              <h6 class="card-title">Ley de Ampere</h6>
+              \( \oint \vec{B} \cdot d\vec{l} = \mu _{o} I _{enc} \)
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="row" id="footer">
+    <div class="row section" id="footer">
       <div class="col">
         <div class="text-center">
           <i class="fas fa-phone fa-lg"></i> 8465-3699 -
@@ -390,8 +416,42 @@
             <i class="fab fa-facebook fa-2x"></i></li></a>
         </ul>
         <br>
-        <p class="text-center">Creado con ❤️ por Carlos Peña</p>
+        <p class="text-center">Creado con ❤️ por Carlos Peña Orochena</p>
         <p class="text-center">Copyright © 2019. Todos los derechos reservados.</p>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Carlos Peña Orochena</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-2">
+                    <h3><i class="fas fa-phone fa-lg"></i></h3>
+                </div>
+                <div class="col-10">
+                    <h3>8465-3699</h3>
+                </div>
+              </div>
+              <hr>
+              <div class="row">
+                <div class="col-2">
+                  <h3><i class="fas fa-envelope-square fa-lg"></i></h3>
+                </div>
+                <div class="col-10">
+                  <h3>corochena@gmail.com</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
