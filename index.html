@@ -32,7 +32,7 @@
   <div class="jumbotron">
     <div class="container">
       <h1 class="border-bottom">
-        Invierte en tu carrera <small>y en tu futuro!</small>
+        Invierte en tu carrera <small>y en tu futuro! <span class="ec">\(F = G \frac{m{_1} m{_2}}{r^2} \) </span></small> 
       </h1>
       <p>
         Hola soy Carlos Peña y te ofrezco mis conocimientos y experiencia para
@@ -45,9 +45,9 @@
   </div>
   <div class="container-fluid">
     <div class="row section" id="about">
-      <div class="col-8 col-md-10">
+      <div class="col-sm-12 col-md-8">
         <h1>Acerca de mi</h1>
-        <p>
+        <p class="text-justify">
           Mi nombre es Carlos Fidel Peña Orochena, ingeniero en Electrónica
           con Máster en Administración. Me empezó a gustar la Matemática en
           sexto grado de primaria cuando aprendí a resolver problemas de
@@ -58,8 +58,8 @@
           docente en la Universidad Americana UAM.
         </p>
       </div>
-      <div class="col-4 col-md-2">
-        <img src="img/me1.jpg" class="img-fluid rounded" alt="" />
+      <div class="col-sm-12 col-md-4 text-center">
+        <img src="img/me1-sm.png" class="rounded img-fluid pb-4" alt="" />
       </div>
     </div>
     <div class="row section" id="importancia">
@@ -107,7 +107,7 @@
     <div class="row section" id="temas">
       <div class="col">
         <h1>Exactamente que te puedo enseñar?</h1>
-        <div class="card-group">
+        <div class="card-group mb-5">
           <div class="card">
             <img src="img/math8.jpg" class="card-img-top rounded img-thumbnail" alt="..." />
             <div class="card-body">
@@ -310,9 +310,9 @@
       </div>
     </div>
     <div class="row section" id="tips">
-      <div class="col">
+      <div class="col-sm-12 col-md-6">
         <h2>Tips para mejorar tu rendimiento</h2>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled mt-4 ml-5">
           <li>🗸 Atención laser, no te distraigas por nada</li>
           <li>🗸 Nunca faltes a clases, llega temprano</li>
           <li>🗸 Pregunta cuando no entiendas algo</li>
@@ -320,12 +320,16 @@
           <li>🗸 Mantén tu cuaderno en orden</li>
         </ul>
       </div>
+      <div class="col-sm-12 col-md-6 text-center">
+        <img src="img/brain1.jpg" class="w-75 img-fluid" alt="">
+      </div>
     </div>
     <div class="row section" id="graduacion">
-      <div class="col">
+      <div class="col text-center">
         <h1 class="text-center text-white">
           Disfruta tu carrera!!
         </h1>
+        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">Contactame</button>
       </div>
     </div>
     <div class="row section" id="formulas">
@@ -443,29 +447,29 @@
             </button>
           </div>
           <div class="modal-body">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-2">
-                    <h3><i class="fas fa-phone fa-lg"></i></h3>
+            <form method="POST" action="https://formspree.io/corochena@gmail.com">
+                <div class="form-group row">
+                  <label for="input-email" class="col-sm-2 col-form-label">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control" id="input-email" name="_replyto" placeholder="Tu Correo">
+                  </div>
                 </div>
-                <div class="col-10">
-                    <h3>8465-3699</h3>
+                <div class="form-group row">
+                  <label for="message" class="col-sm-2 col-form-label">Mensaje</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" id="message" name="name"></textarea>
+                  </div>
                 </div>
-              </div>
-              <hr>
-              <div class="row">
-                <div class="col-2">
-                  <h3><i class="fas fa-envelope-square fa-lg"></i></h3>
+                <div class="form-group row">
+                  <div class="col-sm-10">
+                    <input type="submit" class="btn btn-primary" value="Enviar">
+                  </div>
                 </div>
-                <div class="col-10">
-                  <h3>corochena@gmail.com</h3>
-                </div>
-              </div>
-            </div>
+              </form>
           </div>
         </div>
       </div>
-    </div>
+    </div> <!-- End modal -->
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
